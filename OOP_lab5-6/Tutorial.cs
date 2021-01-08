@@ -15,16 +15,7 @@ namespace OOP_lab5_6
         public Tutorial()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
+            label1.Text = "Вам необходимо ввести два треугольника. На их основе будет построен треугольник-наследник, который вам необходимо угадать. Чтобы получить ответ, делайте попытки и используйте подсказки. Удачи!";
         }
 
         private void button1_Click(object sender, EventArgs e)

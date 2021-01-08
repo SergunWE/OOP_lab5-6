@@ -35,24 +35,22 @@ namespace OOP_lab5_6
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // labelResultsAttempt
+            // label1
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "labelResultsAttempt";
-            this.label1.Size = new System.Drawing.Size(414, 137);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(414, 103);
             this.label1.TabIndex = 0;
-            this.label1.Text = resources.GetString("labelResultsAttempt.Text");
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
-            // buttonGetPrompted
+            // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(288, 149);
-            this.button1.Name = "buttonGetPrompted";
+            this.button1.Location = new System.Drawing.Point(288, 115);
+            this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(136, 32);
             this.button1.TabIndex = 1;
             this.button1.Text = "Ок!";
@@ -63,7 +61,7 @@ namespace OOP_lab5_6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(434, 193);
+            this.ClientSize = new System.Drawing.Size(434, 159);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
