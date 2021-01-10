@@ -101,7 +101,7 @@ namespace OOP_lab5_6
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "IGuessForm";
-            this.Text = "Дать ответ";
+            this.Text = "IForm";
             this.ResumeLayout(false);
 
         }

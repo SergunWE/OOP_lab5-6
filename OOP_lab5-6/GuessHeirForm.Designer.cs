@@ -29,7 +29,6 @@ namespace OOP_lab5_6
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GuessHeirForm));
             this.labelParent1 = new System.Windows.Forms.Label();
             this.labelAngleParent1 = new System.Windows.Forms.Label();
             this.label2SideParent1 = new System.Windows.Forms.Label();
@@ -75,7 +74,6 @@ namespace OOP_lab5_6
             // buttonGetPrompted
             // 
             this.buttonGetPrompted.Location = new System.Drawing.Point(12, 552);
-            //this.buttonGetPrompted.Click += new System.EventHandler(this.buttonGetPrompted_Click_1);
             // 
             // labelParent1
             // 
@@ -337,7 +335,6 @@ namespace OOP_lab5_6
             this.Controls.Add(this.label2SideParent1);
             this.Controls.Add(this.label1SideParent1);
             this.Controls.Add(this.labelParent1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "GuessHeirForm";
             this.Text = "Угадай наследника";
             this.Load += new System.EventHandler(this.GuessHeirForm_Load);
